@@ -3,11 +3,11 @@
 
 To deploy a clone of this application using the [`rhc` command line tool](http://rubygems.org/gems/rhc):
 
-    rhc app create sinatra ruby-1.9 --from-code=https://github.com/ryanj/sinatra-static.git
+    rhc app create sinatra ruby-1.9 --from-code=https://github.com/ryanj/sinatra-base.git
     
-Or [link to a web-based clone+deploy](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=ruby-1.9&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fsinatra-static.git) on [OpenShift Online](http://OpenShift.com) or on [your own OpenShift cloud](http://openshift.github.io): 
+Or [link to a web-based clone+deploy](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=ruby-1.9&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fsinatra-base.git) on [OpenShift Online](http://OpenShift.com) or on [your own OpenShift cloud](http://openshift.github.io): 
 
-    https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=ruby-1.9&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fsinatra-static.git
+    https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=ruby-1.9&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fsinatra-base.git
 
 ## Local server
 First, make sure your application has it's dependencies available by running:
