@@ -1,6 +1,8 @@
 # A basic Sinatra quickstart 
 *With support for serving easy APIs and static content*
 
+[![Build Status](http://img.shields.io/travis/ryanj/sinatra-base.svg)](https://travis-ci.org/ryanj/sinatra-base) [![Deploy](https://img.shields.io/badge/Launch_on-OpenShift-brightgreen.svg)](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=ruby&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fsinatra-base.git&name=sinatra)
+
 To deploy a clone of this application using the [`rhc` command line tool](http://rubygems.org/gems/rhc):
 
     rhc app create sinatra ruby-1.9 --from-code=https://github.com/ryanj/sinatra-base.git
